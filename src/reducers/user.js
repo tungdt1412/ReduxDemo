@@ -1,8 +1,7 @@
-const userReducer = (state, action) => {
+const userReducer = (state = {}, action) => {
     switch (action.type) {
         case "ADD-USER":
-
-            break;
+            return state;
 
         default:
             return state;
